@@ -1,4 +1,46 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
 
+h1 {
+  color: grey;
+  margin: 16px 8px;
+  text-align: center;
+}
 
+.container {
+  background-color: white;
+  border-radius: 24px;
+  margin: 16px auto;
+  padding: 4px 16px;
+  width: fit-content;
+}
+
+form {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+label {
+  display: inline-block;
+  margin: 8px 0;
+  width: 8em;
+}
+
+button {
+  margin: 8px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#rate-text {
+  display: inline-block;
+  width: 0;
+}
+
+#error {
+  color: red;
+}
